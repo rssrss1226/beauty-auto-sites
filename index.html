@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Beauty Publisher Engine</title>
+  <style>
+    :root{--bg:#0b1020;--panel:#131a30;--line:#27304f;--text:#eef2ff;--muted:#9aa4c7;--accent:#6ee7b7;--accent2:#93c5fd}
+    *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif;background:linear-gradient(180deg,#0b1020,#111827);color:var(--text)}
+    .wrap{max-width:1120px;margin:0 auto;padding:32px 16px 80px}.hero{padding:28px;border:1px solid var(--line);border-radius:24px;background:rgba(19,26,48,.85)}
+    .hero p{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:22px}
+    .card{border:1px solid var(--line);background:#11182d;border-radius:20px;padding:20px}.muted{color:var(--muted)}a{color:var(--accent2);text-decoration:none}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#18233f;color:#c7d2fe;font-size:12px;margin-right:8px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>Beauty Publisher Engine</h1>
+      <p>1つのエンジンで3つの美容サイトを回すための静的出版ハブです。トレンド取得→候補絞り込み→比較文生成→品質ゲート→公開の流れで動きます。</p>
+      <p class="muted">生成日時: 2026-04-24 16:25</p>
+    </section>
+    <div class="grid">
+      
+      <article class="card">
+        <span class="badge">ヘアケア</span>
+        <h2><a href="haircare-lab/index.html">Haircare Lab</a></h2>
+        <p>シャンプー・トリートメント・ヘアオイルの比較とトレンドをまとめるサイト</p>
+        <p class="muted">公開ページ数: 7</p>
+      </article>
+      
+      <article class="card">
+        <span class="badge">美容家電</span>
+        <h2><a href="dryer-lab/index.html">Dryer Lab</a></h2>
+        <p>ドライヤー・ヘアアイロン・スタイリング家電の比較サイト</p>
+        <p class="muted">公開ページ数: 5</p>
+      </article>
+      
+      <article class="card">
+        <span class="badge">スキンケア</span>
+        <h2><a href="serum-lab/index.html">Serum Lab</a></h2>
+        <p>美容液・化粧水・乳液・クレンジングの比較サイト</p>
+        <p class="muted">公開ページ数: 7</p>
+      </article>
+      
+    </div>
+  </div>
+</body>
+</html>
