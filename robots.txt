@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rssrss1226.github.io/beauty-auto-sites/sitemap.xml
